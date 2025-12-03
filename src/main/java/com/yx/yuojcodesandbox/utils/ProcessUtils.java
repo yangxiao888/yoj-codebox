@@ -41,7 +41,6 @@ public class ProcessUtils {
                 }
                 // 设置正常输出
                 executeMessage.setMessage(compileOutputStringBuilder.toString());
-                System.out.println(executeMessage);
             } else {
                 // 异常退出
                 System.out.println(opName + "失败，错误码： " + exitValue);
